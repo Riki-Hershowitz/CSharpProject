@@ -9,33 +9,32 @@ public class MemoryCardService
     private const string FolderName = "MISC";
     private const string FileName = "AUTPRINT.MRK";
 
-    public void ProcessMemoryCard()
+    public void ProcessMemoryCard(OrderManagement OManagement)
     {
-        // מקבלת את כל הכוננים המהירים במערכת
         DriveInfo[] drives = DriveInfo.GetDrives();
-
-        // בוחרת את הכוננים הניתנים להסרה (כרטיסי זיכרון לדוגמה)
         var removableDrives = drives.Where(d => d.IsReady && d.DriveType == DriveType.Removable);
 
-        // עבור כל כונן נתון שנמצא
+        if (!removableDrives.Any())
+        {
+            Console.WriteLine("Memory card not found");
+            return;
+        }
+
         foreach (DriveInfo drive in removableDrives)
         {
-            // בונה את הנתיב של תיקיית MISC והקובץ AUTPRINT.MRK
             string miscFolderPath = Path.Combine(drive.RootDirectory.FullName, FolderName);
             string filePath = Path.Combine(miscFolderPath, FileName);
 
-            // אם תיקיית MISC והקובץ קיימים, מעבד את המידע
             if (Directory.Exists(miscFolderPath) && File.Exists(filePath))
             {
-                Console.WriteLine($"Processing file: {filePath}"); // מציג את הקובץ המעובד
-                List<PrintJob> printJobs = ParsePrintJobs(filePath); // קרא את פרטי עבודות ההדפסה מהקובץ
+                Console.WriteLine($"Processing file: {filePath}");
+                List<SavingImages> SavingImage = ParsePrintJobs(filePath, OManagement, drive.RootDirectory.FullName);
 
-                // אם יש עבודות הדפסה, מציג אותן במסך
-                if (printJobs.Any())
+                if (SavingImage.Any())
                 {
-                    foreach (var job in printJobs)
+                    foreach (var job in SavingImage)
                     {
-                        Console.WriteLine($"PID: {job.PID}, Quantity: {job.Quantity}, ImagePath: {job.ImagePath}");
+                        Console.WriteLine($"Id: {job.Id}, Amount: {job.Amount}, Images: {(job.Images != null ? "Yes" : "No")}");
                     }
                 }
                 else
@@ -45,77 +44,119 @@ public class MemoryCardService
             }
             else
             {
-                // אם תיקיית MISC או הקובץ לא קיימים
                 Console.WriteLine($"MISC folder or {FileName} not found in {drive.Name}");
             }
         }
     }
 
-    private List<PrintJob> ParsePrintJobs(string filePath)
+    private List<SavingImages> ParsePrintJobs(string filePath, OrderManagement OManagement, string rootPath)
     {
-        List<PrintJob> jobs = new List<PrintJob>(); // רשימה לאחסון עבודות ההדפסה
-        string[] lines = File.ReadAllLines(filePath); // קורא את כל השורות בקובץ
+        List<SavingImages> jobs = new List<SavingImages>();
+        string[] lines = File.ReadAllLines(filePath);
 
-        PrintJob currentJob = null; // משתנה לאחסון עבודה נוכחית
-        // יצירת ביטויים רגולריים למציאת הנתונים בקובץ
-        Regex jobRegex = new Regex(@"\[JOB\]"); // מחפש את המילה JOB
-        Regex pidRegex = new Regex(@"PRT PID = (\d+)"); // מחפש את PID
-        Regex qtyRegex = new Regex(@"PRT QTY = (\d+)"); // מחפש את כמות ההדפסות
-        Regex imgRegex = new Regex(@"<IMG SRC = ""(.+?)"">"); // מחפש את הנתיב לתמונה
+        SavingImages currentJob = null;
+        Regex jobRegex = new Regex(@"\[JOB\]");
+        Regex pidRegex = new Regex(@"PRT Id = (\d+)");
+        Regex qtyRegex = new Regex(@"PRT QTY = (\d+)");
+        Regex imgRegex = new Regex(@"<IMG SRC = \""(.+?)\"">");
 
-        // עבור כל שורה בקובץ
-        foreach (string line in lines)
+        using (var context = new OrderDbContext()) // פתיחת קונטקסט יחיד
         {
-            // אם השורה מציינת את תחילת עבודה חדשה
-            if (jobRegex.IsMatch(line))
+            foreach (string line in lines)
             {
-                if (currentJob != null)
+                if (jobRegex.IsMatch(line))
                 {
-                    jobs.Add(currentJob); // מוסיף את העבודה הנוכחית לרשימה
+                    if (currentJob != null)
+                    {
+                        context.SavingImages.Add(currentJob); // הוספת התמונה ל-DB
+                        jobs.Add(currentJob);
+                    }
+
+                    currentJob = new SavingImages();
+                    currentJob.OrderCode = OManagement?.OrderCode ?? throw new Exception("Error! The order was not opened properly.");
                 }
-                currentJob = new PrintJob(); // מתחיל עבודה חדשה
+                else if (pidRegex.IsMatch(line) && currentJob != null)
+                {
+                    currentJob.Id = int.Parse(pidRegex.Match(line).Groups[1].Value);
+                }
+                else if (qtyRegex.IsMatch(line) && currentJob != null)
+                {
+                    currentJob.Amount = int.Parse(qtyRegex.Match(line).Groups[1].Value);
+                }
+                else if (imgRegex.IsMatch(line) && currentJob != null)
+                {
+                    string relativePath = imgRegex.Match(line).Groups[1].Value;
+                    string fullPath = Path.Combine(rootPath, relativePath); // שימוש בנתיב המלא
+
+                    if (File.Exists(fullPath))
+                    {
+                        currentJob.Images = File.ReadAllBytes(fullPath);
+                    }
+                }
             }
-            // אם השורה מכילה PID
-            else if (pidRegex.IsMatch(line) && currentJob != null)
+
+            if (currentJob != null)
             {
-                currentJob.PID = int.Parse(pidRegex.Match(line).Groups[1].Value); // שומר את ה-PID
+                context.SavingImages.Add(currentJob);
+                jobs.Add(currentJob);
             }
-            // אם השורה מכילה כמות
-            else if (qtyRegex.IsMatch(line) && currentJob != null)
-            {
-                currentJob.Quantity = int.Parse(qtyRegex.Match(line).Groups[1].Value); // שומר את כמות ההדפסות
-            }
-            // אם השורה מכילה נתיב לתמונה
-            else if (imgRegex.IsMatch(line) && currentJob != null)
-            {
-                currentJob.ImagePath = imgRegex.Match(line).Groups[1].Value; // שומר את נתיב התמונה
-            }
+
+            context.SaveChanges(); // שמירה של כל הרשומות בפעם אחת
         }
 
-        // אם העבודה הנוכחית לא הוספה לרשימה, הוספה אותה בסוף
-        if (currentJob != null)
-        {
-            jobs.Add(currentJob);
-        }
-
-        return jobs; // מחזיר את רשימת עבודות ההדפסה
+        return jobs;
     }
-}
-
-// מחלקת PrintJob המייצגת עבודה להדפסה
-public class PrintJob
-{
-    public int PID { get; set; } // מזהה עבודה
-    public int Quantity { get; set; } // כמות הדפסות
-    public string ImagePath { get; set; } // נתיב לתמונה
 }
 
 // קריאה לפונקציה ממקום אחר בקוד
 public class Program
 {
-    public static void Main()
+    public static void ReceivingTheImagesFromTheCardIntoTheSystem(OrderManagement OManagement)
     {
         MemoryCardService service = new MemoryCardService();
-        service.ProcessMemoryCard(); // קורא לפונקציה המעבדת את כרטיס הזיכרון
+        service.ProcessMemoryCard(OManagement);
     }
+
+    public void AssignNewOrderToOfficer(string orderCode)
+    {
+        // קבלת כל הפקידים
+        var officers = dbContext.Officers.ToList();
+
+        // קבלת כל ההזמנות שלא בוצעו או שבטיפול
+        var pendingOrders = dbContext.OrderManagement
+                                    .Where(o => o.ProcessStatus == 0 || o.ProcessStatus == 1)
+                                    .GroupBy(o => o.OfficerCode)
+                                    .Select(g => new
+                                    {
+                                        OfficerCode = g.Key,
+                                        OrderCount = g.Count()
+                                    })
+                                    .ToList();
+
+        // מציאת הפקיד עם מספר ההזמנות הנמוך ביותר
+        var officerWithFewestOrders = officers
+            .Select(officer => new
+            {
+                Officer = officer,
+                PendingOrdersCount = pendingOrders.FirstOrDefault(po => po.OfficerCode == officer.OfficerCode)?.OrderCount ?? 0
+            })
+            .OrderBy(o => o.PendingOrdersCount)
+            .FirstOrDefault();
+
+        if (officerWithFewestOrders != null)
+        {
+            // קבלת ההזמנה החדשה
+            var order = new OrderManagement(orderCode, 0, officerWithFewestOrders.Officer.OfficerCode, null);
+
+            // עדכון ההזמנה עם הפקיד שנבחר
+            dbContext.OrderManagement.Add(order);
+
+            // עדכון הסטטוס של הפקיד אם צריך (לא חובה)
+            officerWithFewestOrders.Officer.IsAvailable = false; // לדוגמה, אם יש שדה כזה
+
+            // שמירה בבסיס הנתונים
+            dbContext.SaveChanges();
+        }
+    }
+
 }

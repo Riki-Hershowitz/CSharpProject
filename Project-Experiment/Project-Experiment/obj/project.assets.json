@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\הרשו\\Desktop\\ריקי תכנות\\פרוייקט C#\\Project-Experiment\\Project-Experiment\\Project-Experiment.csproj",
+      "projectUniqueName": "C:\\Users\\הרשו\\Desktop\\ריקי תכנות\\פרוייקט C#\\גיט\\Project-Experiment\\Project-Experiment\\Project-Experiment.csproj",
       "projectName": "Project-Experiment",
-      "projectPath": "C:\\Users\\הרשו\\Desktop\\ריקי תכנות\\פרוייקט C#\\Project-Experiment\\Project-Experiment\\Project-Experiment.csproj",
+      "projectPath": "C:\\Users\\הרשו\\Desktop\\ריקי תכנות\\פרוייקט C#\\גיט\\Project-Experiment\\Project-Experiment\\Project-Experiment.csproj",
       "packagesPath": "C:\\Users\\הרשו\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\הרשו\\Desktop\\ריקי תכנות\\פרוייקט C#\\Project-Experiment\\Project-Experiment\\obj\\",
+      "outputPath": "C:\\Users\\הרשו\\Desktop\\ריקי תכנות\\פרוייקט C#\\גיט\\Project-Experiment\\Project-Experiment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

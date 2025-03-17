@@ -1,34 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\C#_Project\\PhotoManagment\\",
+  "WorkspaceRootPath": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|c:\\users\\user\\desktop\\c#_project\\photomanagment\\photomanagment\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|solutionrelative:photomanagment\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6ADD249-2C81-40D6-AC4A-EEEA5CD1E709}|BLL\\BLL.csproj|c:\\users\\\u05D4\u05E8\u05E9\u05D5\\desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 c#\\c#_project\\photomanagment\\bll\\services\\memorycardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6ADD249-2C81-40D6-AC4A-EEEA5CD1E709}|BLL\\BLL.csproj|solutionrelative:bll\\services\\memorycardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|c:\\users\\user\\desktop\\c#_project\\photomanagment\\photomanagment\\models\\savingimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|solutionrelative:photomanagment\\models\\savingimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|c:\\users\\\u05D4\u05E8\u05E9\u05D5\\desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 c#\\c#_project\\photomanagment\\photomanagment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|solutionrelative:photomanagment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|c:\\users\\user\\desktop\\c#_project\\photomanagment\\photomanagment\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|c:\\users\\\u05D4\u05E8\u05E9\u05D5\\desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 c#\\c#_project\\photomanagment\\photomanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|solutionrelative:photomanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6ADD249-2C81-40D6-AC4A-EEEA5CD1E709}|BLL\\BLL.csproj|c:\\users\\\u05D4\u05E8\u05E9\u05D5\\desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 c#\\c#_project\\photomanagment\\bll\\interfaces\\imemorycardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6ADD249-2C81-40D6-AC4A-EEEA5CD1E709}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\imemorycardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6ADD249-2C81-40D6-AC4A-EEEA5CD1E709}|BLL\\BLL.csproj|c:\\users\\\u05D4\u05E8\u05E9\u05D5\\desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 c#\\c#_project\\photomanagment\\bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C6ADD249-2C81-40D6-AC4A-EEEA5CD1E709}|BLL\\BLL.csproj|solutionrelative:bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C84D8D-1FC0-44CB-8CE5-BEC4CE63322D}|DAL\\DAL.csproj|c:\\users\\\u05D4\u05E8\u05E9\u05D5\\desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 c#\\c#_project\\photomanagment\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C84D8D-1FC0-44CB-8CE5-BEC4CE63322D}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6ADD249-2C81-40D6-AC4A-EEEA5CD1E709}|BLL\\BLL.csproj|c:\\users\\\u05D4\u05E8\u05E9\u05D5\\desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 c#\\c#_project\\photomanagment\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6ADD249-2C81-40D6-AC4A-EEEA5CD1E709}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|c:\\users\\\u05D4\u05E8\u05E9\u05D5\\desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 c#\\c#_project\\photomanagment\\photomanagment\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|solutionrelative:photomanagment\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|c:\\users\\user\\desktop\\c#_project\\photomanagment\\photomanagment\\models\\ordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|c:\\users\\\u05D4\u05E8\u05E9\u05D5\\desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 c#\\c#_project\\photomanagment\\photomanagment\\models\\ordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|solutionrelative:photomanagment\\models\\ordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|c:\\users\\user\\desktop\\c#_project\\photomanagment\\photomanagment\\models\\officer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|c:\\users\\\u05D4\u05E8\u05E9\u05D5\\desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 c#\\c#_project\\photomanagment\\photomanagment\\models\\officer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|solutionrelative:photomanagment\\models\\officer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|c:\\users\\user\\desktop\\c#_project\\photomanagment\\photomanagment\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|c:\\users\\\u05D4\u05E8\u05E9\u05D5\\desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 c#\\c#_project\\photomanagment\\photomanagment\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|solutionrelative:photomanagment\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|c:\\users\\\u05D4\u05E8\u05E9\u05D5\\desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 c#\\c#_project\\photomanagment\\photomanagment\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|solutionrelative:photomanagment\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|c:\\users\\user\\desktop\\c#_project\\photomanagment\\photomanagment\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|c:\\users\\\u05D4\u05E8\u05E9\u05D5\\desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 c#\\c#_project\\photomanagment\\photomanagment\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|solutionrelative:photomanagment\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|c:\\users\\\u05D4\u05E8\u05E9\u05D5\\desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 c#\\c#_project\\photomanagment\\photomanagment\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|solutionrelative:photomanagment\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|c:\\users\\\u05D4\u05E8\u05E9\u05D5\\desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 c#\\c#_project\\photomanagment\\photomanagment\\models\\savingimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F4D1323-6FD9-4241-861B-9EE5B7633185}|PhotoManagment\\PhotoManagment.csproj|solutionrelative:photomanagment\\models\\savingimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,19 +70,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PhotoManagment\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PhotoManagment\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T22:51:53.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Program.cs",
+              "RelativeDocumentMoniker": "PhotoManagment\\Program.cs",
+              "ToolTip": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Program.cs",
+              "RelativeToolTip": "PhotoManagment\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T22:46:56.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMemoryCardService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\BLL\\Interfaces\\IMemoryCardService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\IMemoryCardService.cs",
+              "ToolTip": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\BLL\\Interfaces\\IMemoryCardService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\IMemoryCardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T22:43:13.689Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MemoryCardService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\BLL\\Services\\MemoryCardService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\MemoryCardService.cs",
+              "ToolTip": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\BLL\\Services\\MemoryCardService.cs",
+              "RelativeToolTip": "BLL\\Services\\MemoryCardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T22:32:48.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BLL",
+              "DocumentMoniker": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\BLL\\BLL.csproj",
+              "RelativeDocumentMoniker": "BLL\\BLL.csproj",
+              "ToolTip": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\BLL\\BLL.csproj",
+              "RelativeToolTip": "BLL\\BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-02T22:32:02.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "PhotoManagment\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "PhotoManagment\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-02T22:05:22.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "BLL\\Class1.cs",
+              "ToolTip": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\BLL\\Class1.cs",
+              "RelativeToolTip": "BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T22:05:15.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "DAL\\Class1.cs",
+              "ToolTip": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\DAL\\Class1.cs",
+              "RelativeToolTip": "DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T22:04:27.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Status.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\Status.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\Status.cs",
               "RelativeDocumentMoniker": "PhotoManagment\\Models\\Status.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\Status.cs",
+              "ToolTip": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\Status.cs",
               "RelativeToolTip": "PhotoManagment\\Models\\Status.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,24 +191,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SavingImages.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\SavingImages.cs",
-              "RelativeDocumentMoniker": "PhotoManagment\\Models\\SavingImages.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\SavingImages.cs",
-              "RelativeToolTip": "PhotoManagment\\Models\\SavingImages.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T18:10:34.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "PhotoManagment\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "PhotoManagment\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -85,11 +204,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#_Project\\PhotoManagment\\PhotoManagment\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "PhotoManagment\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#_Project\\PhotoManagment\\PhotoManagment\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "PhotoManagment\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -98,11 +217,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#_Project\\PhotoManagment\\PhotoManagment\\Views\\Home\\Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "PhotoManagment\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#_Project\\PhotoManagment\\PhotoManagment\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "PhotoManagment\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -111,28 +230,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Officer.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\Officer.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\Officer.cs",
               "RelativeDocumentMoniker": "PhotoManagment\\Models\\Officer.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\Officer.cs",
+              "ToolTip": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\Officer.cs",
               "RelativeToolTip": "PhotoManagment\\Models\\Officer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAUAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwAUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T17:31:16.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "OrderManagement.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\OrderManagement.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\OrderManagement.cs",
               "RelativeDocumentMoniker": "PhotoManagment\\Models\\OrderManagement.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\OrderManagement.cs",
+              "ToolTip": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\OrderManagement.cs",
               "RelativeToolTip": "PhotoManagment\\Models\\OrderManagement.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwCgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T17:17:42.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SavingImages.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\SavingImages.cs",
+              "RelativeDocumentMoniker": "PhotoManagment\\Models\\SavingImages.cs",
+              "ToolTip": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\C#_Project\\PhotoManagment\\PhotoManagment\\Models\\SavingImages.cs",
+              "RelativeToolTip": "PhotoManagment\\Models\\SavingImages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T18:10:34.411Z",
               "EditorCaption": ""
             },
             {

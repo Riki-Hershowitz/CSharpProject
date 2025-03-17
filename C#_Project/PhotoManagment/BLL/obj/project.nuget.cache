@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/s0SKHacBo4=",
+  "dgSpecHash": "zHALnTFs2Yg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\הרשו\\Desktop\\ריקי תכנות\\פרוייקט C#\\C#_Project\\PhotoManagment\\BLL\\BLL.csproj",
+  "projectFilePath": "C:\\Users\\הרשו\\Desktop\\ריקי תכנות\\פרוייקט C#\\גיט\\C#_Project\\PhotoManagment\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\הרשו\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\הרשו\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

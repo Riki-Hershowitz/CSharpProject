@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\Project-Experiment\\",
+  "WorkspaceRootPath": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\\u05D2\u05D9\u05D8\\Project-Experiment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4195C462-E755-4CC7-885B-DF8C36C7760B}|Project-Experiment\\Project-Experiment.csproj|c:\\users\\\u05D4\u05E8\u05E9\u05D5\\desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 c#\\project-experiment\\project-experiment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4195C462-E755-4CC7-885B-DF8C36C7760B}|Project-Experiment\\Project-Experiment.csproj|c:\\users\\\u05D4\u05E8\u05E9\u05D5\\desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 c#\\\u05D2\u05D9\u05D8\\project-experiment\\project-experiment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4195C462-E755-4CC7-885B-DF8C36C7760B}|Project-Experiment\\Project-Experiment.csproj|solutionrelative:project-experiment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\Project-Experiment\\Project-Experiment\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\\u05D2\u05D9\u05D8\\Project-Experiment\\Project-Experiment\\Program.cs",
               "RelativeDocumentMoniker": "Project-Experiment\\Program.cs",
-              "ToolTip": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\Project-Experiment\\Project-Experiment\\Program.cs",
+              "ToolTip": "C:\\Users\\\u05D4\u05E8\u05E9\u05D5\\Desktop\\\u05E8\u05D9\u05E7\u05D9 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 C#\\\u05D2\u05D9\u05D8\\Project-Experiment\\Project-Experiment\\Program.cs",
               "RelativeToolTip": "Project-Experiment\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAD8AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T23:31:34.259Z",
               "EditorCaption": ""
